@@ -1,0 +1,24 @@
+.frequency-table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frequency-table-container>table {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.frequency-table-container>table>thead>tr>th {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+
+.frequency-table-container>table>tbody>tr>td {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}

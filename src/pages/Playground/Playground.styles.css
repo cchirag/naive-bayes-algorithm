@@ -1,0 +1,39 @@
+.playground-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.playground-page-header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--on-primary-color);
+    font-weight: 600;
+}
+
+.playground-page-content {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.stepper-container {
+    margin: 20px 0px;
+    width: 80%;
+    height: 100px;
+}
+
+.playground-page-content-steps {
+    height: calc(100vh - 190px);
+    overflow-y: scroll;
+    width: 60%;
+    margin-bottom: 20px;
+}

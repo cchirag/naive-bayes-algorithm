@@ -1,0 +1,46 @@
+.prepare-and-train-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.prepare-and-train-form {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.prepare-and-train-form>select {
+    height: 40px;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.weather-vs-play-table-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    max-height: calc(100% - 500px);
+}
+
+.weather-vs-play-table {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.weather-vs-play-table>thead>tr>th {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.weather-vs-play-table>tbody>tr>td {
+    text-align: center;
+    border-bottom: 1px solid black;
+}

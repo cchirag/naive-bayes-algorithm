@@ -1,0 +1,28 @@
+.likelihood-table-page {
+    width: 100%;
+}
+
+.likelihood-table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.likelihood-table-container>table {
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.likelihood-table-container>table>thead>tr>th {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+
+.likelihood-table-container>table>tbody>tr>td {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}

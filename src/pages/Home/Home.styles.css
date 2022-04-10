@@ -1,0 +1,43 @@
+.home-page-container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    box-sizing: border-box;
+}
+
+.home-page-header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--on-primary-color);
+}
+
+.home-page-content {
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.defination {
+    width: 50%;
+    color: var(--on-primary-color);
+    text-align: center;
+}
+
+.next-button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--on-secondary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
